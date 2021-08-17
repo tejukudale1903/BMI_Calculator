@@ -5,7 +5,10 @@
     margin-top: 20px;
     
   }
-
+.App_container{
+margin-left: 150px;
+margin-right: 150px;
+}
   .form-group{
       margin-top: 20px;
   }
@@ -14,8 +17,34 @@
       color: blueviolet;
       font-size: 30px;
   }
-  .list{
-text-decoration: none;
-text-emphasis: none;
-text-align: left;
+  
+  .tips{
+      text-align: left;
+      /* line-height: 1.5px; */
   }
+  .tips p{
+      /* line-height: 1.7; */
+      font-size: 20px;
+      
+  }
+  .tips h3{
+    color: tomato;
+  }
+  .tips h4{
+      color:green;
+      font-size: 20px;
+  }
+  .underweight{
+      /* line-height: 2; */
+      font-size: 20px;
+  }
+.overweight{
+    font-size: 20px;
+}
+  @media (max-width: 480px) {
+    .App_container {
+        /* background-color: red; */
+        margin: 5px;
+        padding: unset;
+    }
+}
