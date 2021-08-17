@@ -1,0 +1,21 @@
+.bmi-result {
+    /* text-align: center; */
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 20px;
+    
+  }
+
+  .form-group{
+      margin-top: 20px;
+  }
+      /* text-align: center; */
+  .col-xs-12 p{
+      color: blueviolet;
+      font-size: 30px;
+  }
+  .list{
+text-decoration: none;
+text-emphasis: none;
+text-align: left;
+  }
