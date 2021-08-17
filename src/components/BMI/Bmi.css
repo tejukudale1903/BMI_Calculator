@@ -14,8 +14,22 @@ margin-right: 150px;
   }
       /* text-align: center; */
   .col-xs-12 p{
-      color: blueviolet;
+      /* color: rgb(43, 165, 226);
       font-size: 30px;
+       */
+       font-size: 32px;
+       font-weight: bold;
+       /* color:#EE82EE; */
+       background-image: linear-gradient(to right top, #fb3ddb, #d157eb, #a168f3, #6a72f3, #1278eb);
+       /* width: 230px;
+       border-radius: 8px;
+       text-align: center;
+       height: 50px;
+       color: white; */
+       -webkit-background-clip: text;
+       -moz-background-clip: text;
+       -webkit-text-fill-color: transparent; 
+       -moz-text-fill-color: transparent;
   }
   
   .tips{
@@ -29,6 +43,7 @@ margin-right: 150px;
   }
   .tips h3{
     color: tomato;
+    font-size: 23px;
   }
   .tips h4{
       color:green;
