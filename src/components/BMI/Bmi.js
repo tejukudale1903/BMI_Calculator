@@ -176,20 +176,45 @@ class Bmi extends React.Component {
               <li>Reduce Calorie Intake: A diet is recommended that reduces ≥500 kcal/d [usually 1200 to 1500 kcal/d for women
                  and 1500 to 1800 kcal/d for men]</li>
             </ul>
-            <h4>Do's :</h4>
-            <ul>
-              <li>Decrease salt intake (less than 6g/d)</li>
-              <li>Add protein to the diet, eat legumes, whole grains, nuts, seafood, and lean meats</li>
-              <li>Eat fat-free and low-fat dairy</li>
-              <li>Consume more fruits and vegetables</li>
-            </ul>
-            <h4>Don'ts :</h4>
-            <ul>
-              <li>Avoid foods with more than 2 gm of saturated fat</li>
-              <li>	Avoid junk food</li>
-              <li>Avoid sugary drinks</li>
-              <li>Limit food rich in saturated fat and cholesterol</li>
-            </ul>
+                <h4>Do's and Don'ts :</h4>
+            <table className="style_table">
+                <tr>
+                  <th>Do's</th>
+                  <th>Don'ts</th>
+                </tr>
+                <tr>
+                  <td>Add protein to the diet, eat legumes, whole grains, nuts, seafood, and lean meats</td>
+                  <td>Avoid foods with more than 2 gm of saturated fat</td>
+                </tr>
+                <tr>
+                  <td>Consume more fruits and vegetables</td>
+                  <td>Avoid junk food</td>
+                </tr>
+                <tr>
+                  <td>Eat fat-free and low-fat dairy</td>
+                  <td>Avoid sugary drinks</td>
+                </tr>
+                <tr>
+                  <td>Decrease salt intake (less than 6g/d)</td>
+                  <td>Limit food rich in saturated fat and cholesterol</td>
+                </tr>
+              </table>
+          
+            <h4>Normal Calorie Requirement:</h4>
+            <table className="style_table">
+                <tr>
+                  <th>Adult</th>
+                  <th>Calories Per Day</th>
+                </tr>
+                <tr>
+                  <td>Male</td>
+                  <td>2,000-3000</td>
+                </tr>
+                <tr>
+                  <td>Female</td>
+                  <td>1,600-2,400</td>
+                </tr>
+              </table>
            </div>
            
          </div>
