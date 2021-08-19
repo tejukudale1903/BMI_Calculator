@@ -113,42 +113,46 @@ margin-right: 150px;
     color: #ffffff;
     text-align: left;
 } */
+.life h2{
+ font-size: 40px;
+}
 .life{
   font-family: "Playfair Display", serif;
-  font-size: 40px;
+ 
   color: #051145;
   padding-top: 30px;
   margin-left: 150px;
   margin-right: 150px;
-}
+ }
 .food img{
   height: 250px;
-  width: 350px;
-  /* position: fixed; */
+  width: 310px;
+
   border-radius: 10px;
   box-shadow:5px 10px 18px #888888;
-  margin-left: 30px;
-  /* display: flex; */
+  /* margin-left: 30px; */
+
 }
 .lose_weight img {
   height: 250px;
-  /* width: 350px; */
+  width: 85%;
   border-radius: 10px;
   box-shadow:5px 10px 18px #888888;
-  margin-left: 60px;
+  /* margin-left: 60px; */
 }
 
 .activity img{
   height: 250px;
-  width: 350px;
-  /* position: fixed; */
+  width: 85%;
+
   border-radius: 10px;
   box-shadow:5px 10px 18px #888888;
-  margin-left: 60px;
-}
+  /* margin-left: 60px; */
+} 
+
 .healthy_cards{
   display: flex;
-  
+  justify-content: space-evenly;
 }
 /* .life img{
   height: 250px;
@@ -168,7 +172,7 @@ margin-right: 150px;
         padding: 5px; 
     }
     .header {
-      line-height: 0.8;
+      /* line-height: 0.8; */
       font-size: 25px;
       margin: 9px; 
       padding: 5px; 
@@ -223,24 +227,52 @@ and (max-device-width : 720px) {
 .head{
   display: inline;
 }
-/* .header {
+ .header {
  margin-left: 30px;
  margin-right:30px ;
 }
 .tips{
   margin-left: 50px;
   margin-right: 50px;
-} */
+} 
 .life{
   margin: 0;
 }
 .healthy_cards{
   display: inline;
-}
+} 
 }
 
 @media only screen 
 and (min-device-width : 360px) 
 and (max-device-width : 640px) {
-  
+  .header{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .bmi img{
+    height: 100px;
+    width: 200px;
+    margin-left: 20px;
+  }
+  .life{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+  .life{
+    margin: 0;
+  }
+  /* .food img{
+    height: 200px;
+    width: 100%;
+  }
+  .lose_weight{
+    height: 200px;
+    width: 100%;
+  } */
 }
