@@ -60,6 +60,24 @@
    justify-content: space-evenly;
  }
 
+ .food p{
+  color: #051145;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+ }
+ .weight p{
+  color: #051145;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+ }
+
+ .activity p{
+  color: #051145;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+ }
+
+
  .health_tips{
    text-align: left;
    
@@ -102,6 +120,35 @@
  .meats h2{
   /* color: rgb(241, 70, 224); */
   font-size: 30px;
+  color: #051145;
+  font-family: "Playfair Display", serif;
+}
+
+.weight_tips{
+  text-align: left;
+}
+.weight_loss h2{
+font-size: 35px;
+color: #051145;
+  font-family: "Playfair Display", serif;
+}
+.weight_tips h3{
+  font-size: 20px;
+  color: #051145;
+  font-family: "Playfair Display", serif;
+}
+
+.phy_activity h2{
+  font-size: 35px;
+color: #051145;
+  font-family: "Playfair Display", serif;
+}
+
+.physical_act{
+  text-align: left;
+}
+.physical_act h3{
+  font-size: 20px;
   color: #051145;
   font-family: "Playfair Display", serif;
 }

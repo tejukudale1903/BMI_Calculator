@@ -21,7 +21,6 @@ function App() {
   const [buttonPopup2, setButtonPopup2] = useState(false);
   const [buttonPopup3, setButtonPopup3] = useState(false);
 
- 
   return (
     <div className="App ">
       <BMI />
@@ -53,7 +52,7 @@ function App() {
       </main>
       <Popup trigger={buttonPopup1} setTrigger={setButtonPopup1}>
         {/* <h2>Healthy Eating Plan</h2> */}
-   
+
         <div className="health_tips">
           <h2>Healthy Eating Plan</h2>
           <ul>
@@ -104,30 +103,125 @@ function App() {
             to find you have a new favorite dish!.
           </p>
         </div>
-  
-        <div className="meats">
-          <h2>Meats</h2>
-          <p>
-            If your favorite recipe calls for frying fish or breaded chicken,
-            try healthier variations by baking or grilling. Maybe even try dry
-            beans in place of meats. Ask friends and search the internet and
-            magazines for recipes with fewer calories ― you might be surprised
-            to find you have a new favorite dish!.
-          </p>
-        </div>
-  
       </Popup>
 
       <Popup trigger={buttonPopup2} setTrigger={setButtonPopup2}>
-        <div>
+        <div className="weight_loss">
+          <h2>Tips for successful weight loss</h2>
+          <div className="weight_tips">
+            <h3>1. Eat varied, colorful, nutritionally dense foods</h3>
+            <p>
+              The following foods are healthful and often rich in nutrients:
+            </p>
+            <ul>
+              <li>fresh fruits and vegetables</li>
+              <li>whole grains, such as brown rice and oatmeal</li>
+              <li>legumes</li>
+              <li>fish</li>
+              <li>seeds</li>
+              <li>nuts</li>
+            </ul>
+            <p>Foods to avoid eating include:</p>
+            <ul>
+              <li>fatty red or processed meats</li>
+              <li>foods with added oils, butter, and sugar</li>
+              <li>bagels</li>
+              <li>baked goods</li>
+              <li>white bread</li>
+              <li>processed foods</li>
+            </ul>
+            <h3>2. Keep a food and weight diary</h3>
+            <p>
+              Self-monitoring is a critical factor in successfully losing
+              weight. People can use a paper diary, mobile app, or dedicated
+              website to record every item of food that they consume each day.
+              They can also measure their progress by recording their weight on
+              a weekly basis.
+            </p>
 
+            <p>
+              Those who can track their success in small increments and identify
+              physical changes are much more likely to stick to a weight loss
+              regimen.
+            </p>
+
+            <p>
+              People can also keep track of their body mass index (BMI) using a
+              BMI calculator.
+            </p>
+            <h3>3.Eliminate liquid calories</h3>
+            <p>
+              It is possible to consume hundreds of calories a day by drinking
+              sugar-sweetened soda, tea, juice, or alcohol. These are known as
+              “empty calories” because they provide extra energy content without
+              offering any nutritional benefits.
+            </p>
+
+            <p>
+              Unless a person is consuming a smoothie to replace a meal, they
+              should aim to stick to water or unsweetened tea and coffee. Adding
+              a splash of fresh lemon or orange to water can provide flavor.
+            </p>
+
+            <p>
+              Avoid mistaking dehydration for hunger. An individual can often
+              satisfy feelings of hunger between scheduled meal times with a
+              drink of water.
+            </p>
+          </div>
         </div>
-
-        <p>lose weight</p>
       </Popup>
 
       <Popup trigger={buttonPopup3} setTrigger={setButtonPopup3}>
-        <p>Activity</p>
+        <div className="phy_activity">
+          <h2>Physical Activity:Obesity Prevention Source</h2>
+          <div className="physical_act">
+            <p>
+              Regular exercise is vital for both physical and mental health.
+              Increasing the frequency of physical activity in a disciplined and
+              purposeful way is often crucial for successful weight loss.
+            </p>
+            <p>
+              People who are not usually physically active should slowly
+              increase the amount of exercise that they do and gradually
+              increase its intensity. This approach is the most sustainable way
+              to ensure that regular exercise becomes a part of their lifestyle.
+            </p>
+            <p>
+              In the same way that recording meals can psychologically help with
+              weight loss, people may also benefit from keeping track of their
+              physical activity. Many free mobile apps are available that track
+              a person’s calorie balance after they log their food intake and
+              exercise.
+            </p>
+            <h3>
+              If the thought of a full workout seems intimidating to someone who
+              is new to exercise, they can begin by doing the following
+              activities to increase their exercise levels:
+            </h3>
+            <ul>
+              <li>parking farther away from a building entrance</li>
+              <li>playing outdoor games</li>
+              <li>dancing</li>
+              <li>gardening</li>
+              <li>taking the stairs</li>
+              <li>raking leaves</li>
+              <li>walking</li>
+            </ul>
+            <h3>Physical activity also helps to–</h3>
+            <ul>
+              <li>Maintain weight.</li>
+              <li>Reduce risk for osteoporosis and falls.</li>
+              <li>
+                Reduce risk for type 2 diabetes, heart attack, stroke, and
+                several forms of cancer.
+              </li>
+              <li>Reduce high blood pressure.</li>
+              <li>Reduce arthritis pain and associated disability.</li>
+              <li>Reduce symptoms of depression and anxiety.</li>
+            </ul>
+          </div>
+        </div>
       </Popup>
     </div>
   );
