@@ -4,6 +4,7 @@ import "./App.css";
 import React, { useState } from "react";
 import Popup from "./components/BMI/Popup";
 import BMI from "./components/BMI/Bmi";
+// import  useRef from "react";
 // import React, { Component } from 'react';
 
 // function App() {
@@ -19,6 +20,8 @@ function App() {
   const [buttonPopup1, setButtonPopup1] = useState(false);
   const [buttonPopup2, setButtonPopup2] = useState(false);
   const [buttonPopup3, setButtonPopup3] = useState(false);
+
+ 
   return (
     <div className="App ">
       <BMI />
@@ -50,6 +53,7 @@ function App() {
       </main>
       <Popup trigger={buttonPopup1} setTrigger={setButtonPopup1}>
         {/* <h2>Healthy Eating Plan</h2> */}
+   
         <div className="health_tips">
           <h2>Healthy Eating Plan</h2>
           <ul>
@@ -100,9 +104,25 @@ function App() {
             to find you have a new favorite dish!.
           </p>
         </div>
+  
+        <div className="meats">
+          <h2>Meats</h2>
+          <p>
+            If your favorite recipe calls for frying fish or breaded chicken,
+            try healthier variations by baking or grilling. Maybe even try dry
+            beans in place of meats. Ask friends and search the internet and
+            magazines for recipes with fewer calories ― you might be surprised
+            to find you have a new favorite dish!.
+          </p>
+        </div>
+  
       </Popup>
 
       <Popup trigger={buttonPopup2} setTrigger={setButtonPopup2}>
+        <div>
+
+        </div>
+
         <p>lose weight</p>
       </Popup>
 
@@ -112,4 +132,5 @@ function App() {
     </div>
   );
 }
+
 export default App;
