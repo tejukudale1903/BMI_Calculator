@@ -15,3 +15,93 @@
   font-weight: bold;
   font-size: 2em;
 } */
+
+
+ .life h2{
+  font-size: 40px;
+ }
+ .life{
+   font-family: "Playfair Display", serif;
+  
+   color: #051145;
+   padding-top: 30px;
+   margin-left: 150px;
+   margin-right: 150px;
+  } */
+ .food a img{
+   height: 250px;
+   width: 310px;
+ 
+   border-radius: 10px;
+   box-shadow:5px 10px 18px #888888;
+   /* margin-left: 30px; */
+ 
+ }
+ .weight a img{
+   height: 250px;
+   width:310px;
+   border-radius: 10px;
+   box-shadow:5px 10px 18px #888888;
+   /* margin-left: 60px; */
+ }
+ 
+  .activity a img{
+   height: 250px;
+   width: 310px;
+ 
+   border-radius: 10px;
+   box-shadow:5px 10px 18px #888888;
+   
+ } 
+ 
+ .healthy_cards{
+   margin-top: 60px;
+   display: flex;
+   justify-content: space-evenly;
+ }
+
+ .health_tips{
+   text-align: left;
+   
+ }
+ .health_tips h2{
+  font-size: 35px;
+  color: #051145;
+  font-family: "Playfair Display", serif;
+ }
+
+ .fruit{
+   text-align: left;
+   /* line-height: 1.2; */
+ }
+
+ .fruit h2{
+   /* color: rgb(241, 70, 224); */
+   font-size: 30px;
+   color: #051145;
+   font-family: "Playfair Display", serif;
+ }
+
+ .calcium{
+   text-align: left;
+ }
+
+ 
+ .calcium h2{
+  /* color: rgb(241, 70, 224); */
+  font-size: 30px;
+  color: #051145;
+  font-family: "Playfair Display", serif;
+}
+
+ .meats{
+   text-align: left;
+ }
+
+ 
+ .meats h2{
+  /* color: rgb(241, 70, 224); */
+  font-size: 30px;
+  color: #051145;
+  font-family: "Playfair Display", serif;
+}

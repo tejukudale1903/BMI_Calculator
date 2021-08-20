@@ -55,6 +55,9 @@ class Bmi extends React.Component {
     }
   }
 
+ 
+
+
   getBMIResults(bmi) {
     let bmiResults = {
       label: "",
@@ -315,26 +318,32 @@ class Bmi extends React.Component {
               </div>
             </div>
           </div>
-          <div className="life">
+          {/* <div className="life">
             <h2>Stay Healthy:Change Your Life</h2>
             <div className="healthy_cards">
-            <div className="food">
-            <img src="food.jpg" alt="Food"></img>
-            <p>Healthy Eating for Healthy Life</p>
-            {/* <img src="weight.jpg" alt="Weight Lose"></img> */}
-            </div>
-           
-            <div className="lose_weight">
-            <img src="weight.jpg" alt="Weight Lose"></img>
-            <p>Lose Weight</p>
-            </div>
-            <div className="activity">
-            <img src="activity.png" alt="Physical Activity"></img>
-            <p>Physical Activity</p>
-            </div>
-            </div>
+              <div className="food">
+                <a href="#food">
+                  <img src="food.jpg" alt="Food"></img>
+                </a>
+                <p>Healthy Eating for Healthy Life</p>
             
-          </div>
+              </div>
+
+              <div className="lose_weight">
+                <a href="#weight">
+                  {" "}
+                  <img src="weight.jpg" alt="Weight Lose"></img>
+                </a>
+                <p>Lose Weight</p>
+              </div>
+              <div className="activity">
+                <a href="#activity">
+                  <img src="activity.png" alt="Physical Activity"></img>
+                </a>
+                <p>Physical Activity</p>
+              </div>
+            </div>
+          </div> */}
         </div>
       </div>
     );
