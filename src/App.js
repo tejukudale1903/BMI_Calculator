@@ -1,9 +1,10 @@
 import "./App.css";
 // import BMI from "./components/BMI/Bmi";
-// import Health from "./components/BMI/Health";
+import Health from "./components/BMI/Health";
 import React, { useState } from "react";
 import Popup from "./components/BMI/Popup";
 import BMI from "./components/BMI/Bmi";
+// import Health from "./components/BMI/Health";
 // import  useRef from "react";
 // import React, { Component } from 'react';
 
@@ -223,6 +224,7 @@ function App() {
           </div>
         </div>
       </Popup>
+      <Health />
     </div>
   );
 }
