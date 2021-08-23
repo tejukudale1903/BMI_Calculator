@@ -66,6 +66,8 @@ margin-left: 50px;
 
 .social_profile{
   display: flex;
+  /* margin-top: 110px; */
+  align-self: center;
 }
 .social{
 /* display: flex; */
@@ -126,6 +128,7 @@ and (max-device-width : 720px) {
     margin-left: 30px;
     justify-content: center;
     align-items: center;
+    margin-top: 0;
   }
 }
 
@@ -139,7 +142,7 @@ and (max-device-width : 640px) {
     margin-left: 0;
     justify-content: center;
     align-items: center;
-   
+    margin-top: 0;
   }
  
 }
@@ -157,6 +160,7 @@ and (max-device-width : 568px) {
   margin-bottom: 20px;
   justify-content: center;
   align-items: center;
+  margin-top: 0;
   }
 }
 
@@ -173,6 +177,7 @@ and (max-device-width : 1024px) {
     margin-bottom: 20px;
     justify-content: center;
     align-items: center;
+    margin-top: 0;
   }
 }
 
@@ -186,5 +191,6 @@ and (max-device-width : 653px) {
   .social_profile{
     justify-content: center;
     align-items: center;
+    margin-top: 0;
   }
 }
