@@ -72,13 +72,14 @@ margin-left: 50px;
 .social{
 /* display: flex; */
 background-color: rgb(245, 83, 245);
+font-size: 25px;
 width: 220px;
 border-radius: 8px;
 height: 42px;
 margin-top: 30px;
 padding-bottom: 20px;
 font-family:  "Playfair Display", serif;
-color: rgb(233, 228, 227);
+color: rgb(75, 23, 247);
 }
 
 .linked_in p{
