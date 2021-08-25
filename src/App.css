@@ -37,9 +37,9 @@
    /* margin-left: 30px; */
  
  }
- .weight a img{
+ .weight_lose a img{
    height: 250px;
-   width:270px;
+   width:80%;
    border-radius: 10px;
    box-shadow:5px 10px 18px #888888;
    /* margin-left: 60px; */
@@ -65,7 +65,7 @@
   font-family: "Playfair Display", serif;
   font-size: 20px;
  }
- .weight p{
+ .weight_lose p{
   color: #051145;
   font-family: "Playfair Display", serif;
   font-size: 20px;
