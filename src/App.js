@@ -37,7 +37,7 @@ function App() {
             </div>
             <div className="weight_lose">
               <a href="#weight" onClick={() => setButtonPopup2(true)}>
-                <img src="weight.jpg" alt="Weight Lose"></img>
+                <img src="lose_weight.png" alt="Weight Lose"></img>
               </a>
               <p>Lose Weight</p>
             </div>
