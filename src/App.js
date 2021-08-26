@@ -28,6 +28,7 @@ function App() {
       <main>
         <div className="life">
           <h2>Stay Healthy:Change Your Life</h2>
+          <p>Click on image for more information</p>
           <div className="healthy_cards">
             <div className="food">
               <a href="#food" onClick={() => setButtonPopup1(true)}>

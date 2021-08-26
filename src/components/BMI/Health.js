@@ -34,7 +34,7 @@ import 'font-awesome/css/font-awesome.min.css';
             
             <div className="linked_icon"><a href="https://www.linkedin.com/in/tejashree-kudale-0134ab1a4/" target="_blank" rel="noreferrer"><i class="fa fab fa-linkedin"></i></a></div>
             <div className="twitter_icon"><a href="https://twitter.com/Tejashr20316059" target="_blank" rel="noreferrer"><i class="fa fab fa-twitter-square"></i></a></div>
-            <div className="github_icon"><a href="https://github.com/tejukudale1903" target="_blank" rel="noreferrer"><i class="fa fab fa-github"></i></a></div>
+            {/* <div className="github_icon"><a href="https://github.com/tejukudale1903" target="_blank" rel="noreferrer"><i class="fa fab fa-github"></i></a></div> */}
        
             </div>
             </div>
