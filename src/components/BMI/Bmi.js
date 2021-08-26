@@ -264,11 +264,11 @@ class Bmi extends React.Component {
                 <h4>How to lose weight ? :</h4>
                 <ul>
                   <li>
-                    Exercise: Burn calories and maintain weight loss with daily
+                    <b>Exercise</b>: Burn calories and maintain weight loss with daily
                     workouts, cycling, swimming, etc.
                   </li>
                   <li>
-                    Reduce Calorie Intake: A diet is recommended that reduces
+                    <b>Reduce Calorie Intake</b>: A diet is recommended that reduces
                     ≥500 kcal/d [usually 1200 to 1500 kcal/d for women and 1500
                     to 1800 kcal/d for men]
                   </li>
